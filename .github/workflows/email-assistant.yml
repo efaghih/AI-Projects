@@ -5,6 +5,7 @@
 
 name: Email Assistant
 
+
 on:
   schedule:
     - cron: "0 13 * * 1-5"
