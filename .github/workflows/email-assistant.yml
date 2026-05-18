@@ -1,19 +1,21 @@
+# Schedules are UTC. Example: US Eastern (EDT) Mon-Fri
+# 9 AM  -> 0 13 * * 1-5
+# 1 PM  -> 0 17 * * 1-5
+# 10 PM -> 0 2 * * 2-6
+
 name: Email Assistant
 
 on:
   schedule:
-  # 9 AM US Eastern (EDT) Mon-Fri — change for your timezone
     - cron: "0 13 * * 1-5"
-  # 1 PM US Eastern (EDT) Mon-Fri
     - cron: "0 17 * * 1-5"
-  # 10 PM US Eastern (EDT) Mon-Fri
     - cron: "0 2 * * 2-6"
   workflow_dispatch:
     inputs:
       mode:
         description: "morning | midday | evening"
         required: true
-        default: morning
+        default: "morning"
 
 jobs:
   summarize:
