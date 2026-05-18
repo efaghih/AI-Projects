@@ -1,0 +1,60 @@
+name: Email Assistant
+
+on:
+  schedule:
+  # 9 AM US Eastern (EDT) Mon-Fri — change for your timezone
+    - cron: "0 13 * * 1-5"
+  # 1 PM US Eastern (EDT) Mon-Fri
+    - cron: "0 17 * * 1-5"
+  # 10 PM US Eastern (EDT) Mon-Fri
+    - cron: "0 2 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "morning | midday | evening"
+        required: true
+        default: morning
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: email-automation
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Pick run mode
+        id: pick
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 13 * * 1-5") echo "mode=morning" >> "$GITHUB_OUTPUT" ;;
+              "0 17 * * 1-5") echo "mode=midday" >> "$GITHUB_OUTPUT" ;;
+              "0 2 * * 2-6")  echo "mode=evening" >> "$GITHUB_OUTPUT" ;;
+              *) echo "mode=morning" >> "$GITHUB_OUTPUT" ;;
+            esac
+          fi
+
+      - name: Run email assistant
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: python run_summary.py ${{ steps.pick.outputs.mode }}
