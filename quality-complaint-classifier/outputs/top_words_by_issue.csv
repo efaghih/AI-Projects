@@ -1,0 +1,151 @@
+issue_label,rank,word,count
+Attempts to collect debt not owed,1,debt,51319
+Attempts to collect debt not owed,2,credit,50191
+Attempts to collect debt not owed,3,account,49632
+Attempts to collect debt not owed,4,reporting,32024
+Attempts to collect debt not owed,5,collection,25562
+Attempts to collect debt not owed,6,report,20495
+Attempts to collect debt not owed,7,information,18248
+Attempts to collect debt not owed,8,validation,14044
+Attempts to collect debt not owed,9,00,12759
+Attempts to collect debt not owed,10,act,12620
+Attempts to collect debt not owed,11,fair,12360
+Attempts to collect debt not owed,12,dispute,11513
+Attempts to collect debt not owed,13,provide,11180
+Attempts to collect debt not owed,14,fcra,11178
+Attempts to collect debt not owed,15,original,11046
+False statements or representation,1,debt,31091
+False statements or representation,2,credit,18926
+False statements or representation,3,account,18924
+False statements or representation,4,reporting,14872
+False statements or representation,5,collection,13952
+False statements or representation,6,validation,10248
+False statements or representation,7,information,9721
+False statements or representation,8,provide,9028
+False statements or representation,9,original,8132
+False statements or representation,10,request,8122
+False statements or representation,11,15,7358
+False statements or representation,12,report,6940
+False statements or representation,13,act,6929
+False statements or representation,14,fair,6764
+False statements or representation,15,00,6758
+Improper use of your report,1,credit,118936
+Improper use of your report,2,reporting,81977
+Improper use of your report,3,account,79937
+Improper use of your report,4,information,63598
+Improper use of your report,5,fcra,62670
+Improper use of your report,6,report,55978
+Improper use of your report,7,consumer,49077
+Improper use of your report,8,inaccurate,38339
+Improper use of your report,9,15,37440
+Improper use of your report,10,00,36940
+Improper use of your report,11,late,35440
+Improper use of your report,12,accounts,33767
+Improper use of your report,13,balance,33585
+Improper use of your report,14,date,32997
+Improper use of your report,15,reported,31790
+Incorrect information on your report,1,credit,254942
+Incorrect information on your report,2,account,186343
+Incorrect information on your report,3,accounts,153278
+Incorrect information on your report,4,report,141938
+Incorrect information on your report,5,information,136979
+Incorrect information on your report,6,reporting,128076
+Incorrect information on your report,7,consumer,114373
+Incorrect information on your report,8,00,107180
+Incorrect information on your report,9,date,104069
+Incorrect information on your report,10,fcra,90695
+Incorrect information on your report,11,xxxxxxxx,88681
+Incorrect information on your report,12,inquiries,87849
+Incorrect information on your report,13,balance,87555
+Incorrect information on your report,14,identity,82713
+Incorrect information on your report,15,number,77973
+Managing an account,1,account,46102
+Managing an account,2,bank,27602
+Managing an account,3,00,23432
+Managing an account,4,funds,18014
+Managing an account,5,money,13147
+Managing an account,6,year,11896
+Managing an account,7,check,11687
+Managing an account,8,card,11187
+Managing an account,9,told,10181
+Managing an account,10,did,9782
+Managing an account,11,fraud,9188
+Managing an account,12,received,8082
+Managing an account,13,transactions,7921
+Managing an account,14,access,7858
+Managing an account,15,credit,7677
+Problem with a company's investigation into an existing problem,1,credit,73352
+Problem with a company's investigation into an existing problem,2,account,53141
+Problem with a company's investigation into an existing problem,3,reporting,52452
+Problem with a company's investigation into an existing problem,4,information,42343
+Problem with a company's investigation into an existing problem,5,fcra,39616
+Problem with a company's investigation into an existing problem,6,report,34292
+Problem with a company's investigation into an existing problem,7,inaccurate,24667
+Problem with a company's investigation into an existing problem,8,payment,24016
+Problem with a company's investigation into an existing problem,9,accounts,23356
+Problem with a company's investigation into an existing problem,10,15,22974
+Problem with a company's investigation into an existing problem,11,dispute,22799
+Problem with a company's investigation into an existing problem,12,consumer,22783
+Problem with a company's investigation into an existing problem,13,late,22014
+Problem with a company's investigation into an existing problem,14,00,18738
+Problem with a company's investigation into an existing problem,15,reported,18394
+Problem with a purchase shown on your statement,1,00,16915
+Problem with a purchase shown on your statement,2,card,16121
+Problem with a purchase shown on your statement,3,dispute,15287
+Problem with a purchase shown on your statement,4,credit,15029
+Problem with a purchase shown on your statement,5,account,10568
+Problem with a purchase shown on your statement,6,charge,9339
+Problem with a purchase shown on your statement,7,merchant,8890
+Problem with a purchase shown on your statement,8,charges,8605
+Problem with a purchase shown on your statement,9,year,7966
+Problem with a purchase shown on your statement,10,did,7845
+Problem with a purchase shown on your statement,11,bank,7536
+Problem with a purchase shown on your statement,12,refund,6159
+Problem with a purchase shown on your statement,13,received,6127
+Problem with a purchase shown on your statement,14,fraud,5861
+Problem with a purchase shown on your statement,15,transaction,5189
+Took or threatened to take negative or legal action,1,debt,10865
+Took or threatened to take negative or legal action,2,account,7907
+Took or threatened to take negative or legal action,3,credit,7416
+Took or threatened to take negative or legal action,4,collection,5165
+Took or threatened to take negative or legal action,5,reporting,4334
+Took or threatened to take negative or legal action,6,information,3714
+Took or threatened to take negative or legal action,7,report,3079
+Took or threatened to take negative or legal action,8,validation,2822
+Took or threatened to take negative or legal action,9,00,2800
+Took or threatened to take negative or legal action,10,provide,2748
+Took or threatened to take negative or legal action,11,consumer,2566
+Took or threatened to take negative or legal action,12,company,2450
+Took or threatened to take negative or legal action,13,15,2418
+Took or threatened to take negative or legal action,14,legal,2347
+Took or threatened to take negative or legal action,15,original,2155
+Trouble during payment process,1,payment,12167
+Trouble during payment process,2,mortgage,11421
+Trouble during payment process,3,00,10099
+Trouble during payment process,4,escrow,7752
+Trouble during payment process,5,loan,7132
+Trouble during payment process,6,account,6778
+Trouble during payment process,7,payments,5485
+Trouble during payment process,8,insurance,5384
+Trouble during payment process,9,year,4645
+Trouble during payment process,10,received,3581
+Trouble during payment process,11,servicing,3538
+Trouble during payment process,12,company,3136
+Trouble during payment process,13,paid,3089
+Trouble during payment process,14,property,3020
+Trouble during payment process,15,bank,2924
+Written notification about debt,1,debt,21753
+Written notification about debt,2,account,14740
+Written notification about debt,3,credit,14517
+Written notification about debt,4,collection,10534
+Written notification about debt,5,reporting,9555
+Written notification about debt,6,validation,7842
+Written notification about debt,7,report,6756
+Written notification about debt,8,information,6696
+Written notification about debt,9,provide,5252
+Written notification about debt,10,15,4762
+Written notification about debt,11,alleged,4631
+Written notification about debt,12,fdcpa,4562
+Written notification about debt,13,dispute,4378
+Written notification about debt,14,documentation,4198
+Written notification about debt,15,original,4149

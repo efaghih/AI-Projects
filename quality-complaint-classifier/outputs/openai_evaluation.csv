@@ -1,0 +1,11 @@
+complaint_id,predicted_category,urgency,root_cause_score,corrective_action_score,customer_response_score,notes
+0,Account or record error,Critical,4,4,3,Strong fraud/identity analysis; response has [Customer] placeholders
+1,Documentation or information issue,Critical,3,3,3,ML misclassified (true: debt not owed); content still reasonable; generic response
+2,Customer service issue,Medium,3,3,3,Very short complaint; somewhat inferred root cause
+3,Process delay issue,High,4,4,4,Strong verification/FCRA alignment; minor template placeholders
+4,Process delay issue,High,4,4,4,Good fit for student loan re-aging dispute
+5,Account or record error,High,4,3,4,Clear FDCPA third-party issue; corrective action a bit generic
+6,Documentation or information issue,Medium,3,3,3,Very short complaint; generic but acceptable outputs
+7,Process delay issue,High,4,4,4,Good method-of-verification / FCRA focus
+8,Documentation or information issue,High,4,3,3,ML misclassified (true: incorrect report); root cause still fits reporting errors
+9,Account or record error,High,4,4,4,Appropriate cease-collection / identity theft handling

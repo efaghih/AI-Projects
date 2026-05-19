@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large local data (download per README)
+data/raw/
+data/processed/*.csv
+
+# Trained model (regenerate with notebooks/04_train_baseline.ipynb)
+models/*.pkl
